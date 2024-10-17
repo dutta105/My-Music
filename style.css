@@ -70,16 +70,15 @@ header .nav-links a:hover {
     text-shadow: 0 3px 4px #21a1f1;
     text-decoration:none; /* Underline on hover */
 }
-
-.banners {
+.banner{
     display: flex; /* Flex layout for banners */
     overflow: auto;
 }
-.banners::-webkit-scrollbar {
+.banner::-webkit-scrollbar {
     display:none;
 }
-.banners img {
-    max-width: 100%; /* Responsive images */
+.banner img{
+    width: 800px; /* Responsive images */
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Rounded corners for images */
     margin-right: 10px; /* Space between images */
