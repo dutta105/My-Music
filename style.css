@@ -293,19 +293,19 @@ header .nav-links a:hover {
         text-decoration:none; /* Underline on hover */
     }
     
-    .banners {
+    .banner{
         display: flex; /* Flex layout for banners */
         overflow: auto;
     }
-    .banners::-webkit-scrollbar {
+    .banner::-webkit-scrollbar {
         display:none;
     }
-    .banners img {
-        max-width: 100%; /* Responsive images */
+    .banner img{
+        width: 400px; /* Responsive images */
         height: auto; /* Maintain aspect ratio */
         border-radius: 10px; /* Rounded corners for images */
-        margin-right: 5px; /* Space between images */
-        margin-top: 20px;
+        margin-right: 10px; /* Space between images */
+        margin-top: 30px;
         cursor:pointer;
     }
      
